@@ -25,21 +25,21 @@ def addWord(root,let):
         root.prefixes += 1
         l = let[0]
         
-        if root.ref[ord(l) % 19] == None:
-            root.ref[ord(l) % 19] =  TrieNode(l)
+        if root.ref[ord(l) % 97] == None:
+            root.ref[ord(l) % 97] =  TrieNode(l)
         
         let = let[1:]
-        addWord(root.ref[ord(l) % 19],let)
+        addWord(root.ref[ord(l) % 97],let)
 
 
 
 def check(root,val):
     
     for char in val:
-        if root.ref[ord(char) % 19] == None:
+        if root.ref[ord(char) % 97] == None:
             return False
         else:
-            root = root.ref[ord(char) % 19]
+            root = root.ref[ord(char) % 97]
     
     return True
     
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     
     addWord(parent,inp)
     
-    print(check(parent,'boby'))
+    print(check(parent,'bob'))
     
     
     
