@@ -11,6 +11,7 @@ class TrieNode:
     
     def __init__(self,x):
         self.word = x
+        self.isword = 0
         self.prefixes = 0
         self.ref = [None] * 26
         
@@ -18,8 +19,8 @@ class TrieNode:
         
 def addWord(root,let):
     if let == '':
+        root.isword += 1
         return
-        #root.word += 1
     else:
         root.prefixes += 1
         l = let[0]
