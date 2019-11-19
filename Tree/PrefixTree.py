@@ -44,15 +44,35 @@ def check(root,val):
     return True
     
     
+def uniquePrefix(root,string):
+        count = 0
+        for char in string:
+            root = root.ref[ord(char) % 97]
+            
+            if root.prefixes == 1:
+                break
+            else:
+                count += 1
+        
+        return count + 1
+    
+    
+                
+    
 if __name__ == '__main__':
     
     parent = TrieNode('')
+    arr = ['zebra','dog','duck','dove']
+    res = list()
     
-    inp = 'bob'
+    for i in arr:
+        addWord(parent,i)
     
-    addWord(parent,inp)
-    
-    print(check(parent,'bob'))
+    for i in arr:
+        ind =  uniquePrefix(parent,i)
+        res.append(i[:ind])
+        
+    print(res)
     
     
     
