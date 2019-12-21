@@ -4,3 +4,4 @@
 2. Min Heap
 3. LRU Cache (https://www.youtube.com/watch?v=S6IfqDXWa10)
 4. Sorting Algorithms (Bubble, Selection, Insertion, Merge, Heap & Quick Sort)
+5. Knuth-Morris-Pratt (https://www.youtube.com/watch?v=BXCEFAzhxGY)
