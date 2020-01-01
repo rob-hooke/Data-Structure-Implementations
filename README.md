@@ -5,5 +5,6 @@
 3. LRU Cache (https://www.youtube.com/watch?v=S6IfqDXWa10)
 4. Sorting Algorithms (Bubble, Selection, Insertion, Merge, Heap & Quick Sort)
 5. Knuth-Morris-Pratt (https://www.youtube.com/watch?v=BXCEFAzhxGY)
-6. Breadth First Search
-7. Depth First Search
+6. Breadth First Search Graph
+7. Depth First Search Graph
+8. Merge K Sorted Arrays (https://www.geeksforgeeks.org/merge-k-sorted-arrays/)
