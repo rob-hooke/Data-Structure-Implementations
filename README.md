@@ -8,3 +8,4 @@
 6. Breadth First Search Graph
 7. Depth First Search Graph
 8. Merge K Sorted Arrays (https://www.geeksforgeeks.org/merge-k-sorted-arrays/)
+9. Dijkstra's Algorithm Adjacency Matrix (shorturl.at/rIMQ0)
