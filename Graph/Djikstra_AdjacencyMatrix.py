@@ -9,12 +9,19 @@ def getClosest(distance,visited,n):
             minDistIndex = i
 
     return minDistIndex
-            
+
+def printPath(path,j):
+    if path[j] == -1:
+        print(j)
+        return
+    printPath(path,path[j])
+    print(j)
+    
 def djikstra(adj_matrix,src):
 
     n = len(adj_matrix)
     visited = [False] * n
-
+    path = [-1] * n
     distance = [float('inf')] * n
 
     distance[src] = 0
@@ -29,8 +36,13 @@ def djikstra(adj_matrix,src):
         for j in range(n):
             if adj_matrix[nearest][j] > 0 and not visited[j]  and distance[j] > distance[nearest] + adj_matrix[nearest][j]:
                 distance[j] = distance[nearest] + adj_matrix[nearest][j]
+                path[j] = nearest 
 
     print(distance,end='\n')
+    
+    for i in range(1,n):
+        printPath(path,i)
+        print('\n')
             
         
 if __name__ == '__main__':
