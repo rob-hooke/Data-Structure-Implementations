@@ -9,8 +9,7 @@
 7. Depth First Search Graph
 8. Merge K Sorted Arrays (https://www.geeksforgeeks.org/merge-k-sorted-arrays/)
 9. Dijkstra's Algorithm Adjacency Matrix ( shorturl.at/rIMQ0 )
-10.Topological Sort (https://www.youtube.com/watch?v=ddTC4Zovtbc)
-
-11.Cycle Check for Directed Graph
-
-12.Cycle Check for Undirected Graph using Union Find Algorithm
+10. Topological Sort (https://www.youtube.com/watch?v=ddTC4Zovtbc)
+11. Cycle Check for Directed Graph
+12. Cycle Check for Undirected Graph using Union Find Algorithm
+13. Kruskal's Minimum Spanning Tree Algorithm
