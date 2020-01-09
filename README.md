@@ -13,3 +13,4 @@
 11. Cycle Check for Directed Graph
 12. Cycle Check for Undirected Graph using Union Find Algorithm
 13. Kruskal's Minimum Spanning Tree Algorithm
+14. Prim's Minimum Spanning Tree Algorithm
