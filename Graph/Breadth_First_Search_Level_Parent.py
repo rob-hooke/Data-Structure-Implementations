@@ -1,4 +1,4 @@
-Time: O(E+V), Space : O(E+V)
+#Time: O(E+V), Space : O(E+V)
 def bfs(root,adj):
     seen_level = {root:0}
     parent = {root:None}
